@@ -365,3 +365,45 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* footer section */
+
+.footer-section {
+  width: 100%;
+  height: 334px;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("https://images.unsplash.com/photo-1543962226-818f4301073f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1607&q=80");
+  background-size: cover;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.footer-grid {
+  display: grid;
+  width: 85%;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 30px;
+  margin-left: 171px;
+  padding-top: 80px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
