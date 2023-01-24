@@ -406,4 +406,7 @@ h3 {
 .footer-link {
   text-decoration: none;
   color: white;
+  line-height: 20px;
+  display: block;
+  margin-top: 8px;
 }
